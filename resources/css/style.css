@@ -19,8 +19,8 @@ body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 23px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
@@ -66,7 +66,9 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: Sancreek
 }
 
 h2 {
@@ -81,6 +83,17 @@ h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
+
+h4 { 
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+Try it Yourself »
+
 
 h2:after {
     display: block;
@@ -197,8 +210,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/landing1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/landing1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
