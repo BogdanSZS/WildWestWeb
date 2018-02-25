@@ -17,7 +17,7 @@ Orange color: #e67e22
 html,
 body {
     background-image: url("img/background.jpg");
-    color: #555;
+    color: #000000;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 200;
     font-size: 23px;
@@ -447,7 +447,7 @@ header {
 
 .section-testimonials {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/gambling.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/gambling.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/gambling.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
