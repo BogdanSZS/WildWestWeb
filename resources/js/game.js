@@ -53,8 +53,8 @@ var reset = function () {
 	hero.y = canvas.height / 2;
 
 	// Throw the monster somewhere on the screen randomly
-	monster.x = 32 + (Math.random() * (canvas.width - 64));
-	monster.y = 32 + (Math.random() * (canvas.height - 64));
+	monster.x = 5 + (Math.random() * (canvas.width - 100));
+	monster.y = 5 + (Math.random() * (canvas.height - 100));
 };
 
 // Update game objects
