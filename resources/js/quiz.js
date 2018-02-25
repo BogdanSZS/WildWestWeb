@@ -68,32 +68,34 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who is the strongest?",
+      question: "În ce an a avut loc achiziția Louisianei de către Thomas Jefferson?",
       answers: {
-        a: "Superman",
-        b: "The Terminator",
-        c: "Waluigi, obviously"
+        a: "1803",
+        b: "1929",
+        c: "1916",
+        d: "1815"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     {
-      question: "What is the best site ever created?",
+      question: "Cine i-a ghidat pe Lewis și pe Clark în expediția lor?",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Where is Waldo really?",
-      answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
+        a: "Pocahontas",
+        b: "Buffalo Bill",
+        c: "Manifest Destiny",
+        d: "Sacagawea"  
       },
       correctAnswer: "d"
+    },
+    {
+      question: "Cum se numea gruparea infracțională condusă de către Butch Cassidy?",
+      answers: {
+        a: "Inglorious Basterds",
+        b: "Wild Bunch",
+        c: "Apache Helicopter",
+        d: "Fort Sumner's Outlaws"
+      },
+      correctAnswer: "b"
     }
   ];
 
