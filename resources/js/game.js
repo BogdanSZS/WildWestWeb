@@ -1,8 +1,8 @@
 // Create the canvas
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 512;
-canvas.height = 480;
+canvas.width = 460;
+canvas.height = 460;
 document.body.appendChild(canvas);
 
 // Background image
@@ -104,6 +104,18 @@ var render = function () {
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("Goblins caught: " + monstersCaught, 32, 32);
+	
+	// co-ordinates
+	ctx.fillStyle = "rgb(250, 250, 250)";
+	ctx.font = "24px Helvetica";
+	ctx.textAlign = "left";
+	ctx.textBaseline = "top";
+	ctx.fillText("x: " + parseInt(hero.x) + "y:" + parseInt(hero.y), 232, 32);
+	
+	
+	
+	
+	
 };
 
 // The main game loop
@@ -115,16 +127,9 @@ var main = function () {
 	render();
 
 	then = now;
-
-	// Request to do this again ASAP
-	requestAnimationFrame(main);
 };
 
-// Cross-browser support for requestAnimationFrame
-var w = window;
-requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
-
 // Let's play this game!
-var then = Date.now();
 reset();
-main();
+var then = Date.now();
+setInterval(main, 1); // Execute as fast as possible
