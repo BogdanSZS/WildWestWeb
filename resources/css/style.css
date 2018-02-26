@@ -389,7 +389,8 @@ header {
 }
 
 .app-screen {
-    width: 40%;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .works-step {
