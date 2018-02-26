@@ -96,7 +96,77 @@
         d: "Fort Sumner's Outlaws"
       },
       correctAnswer: "b"
-    }
+    },
+    {
+      question: "La ce mină de aur a fost Buffalo Bill prospector?",
+      answers: {
+        a: "Buffalo Head",
+        b: "Winchester County Mine",
+        c: "Pikes Peak",
+        d: "Rocky Peaks"  
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Cum se numeau persoanele ce puneau capcane prin păduri, cu scopul de a prinde jderi, castori și bursuci?",
+      answers: {
+        a: "Prospector",
+        b: "Trapper",
+        c: "Cioclu",
+        d: "Proscris"  
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Cine a fost considerat unul dintre cei mai proeminenți luptători de gherilă?",
+      answers: {
+        a: "Billy The Kid",
+        b: "Chuck Norris",
+        c: "Bonnie ELizabeth Parker",
+        d: "Goyaałé"  
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Câți dolari a costat un acru din Louisiana Territory în 1803?",
+      answers: {
+        a: "$0,04",
+        b: "$4",
+        c: "$247",
+        d: "$0,15"  
+      },
+      correctAnswer: "a"
+    }, 
+    {
+      question: "Cum se numește genul de film inspirat de sălbăticia frontierei americane?",
+      answers: {
+        a: "Thriller",
+        b: "Western",
+        c: "Drama",
+        d: "Documentary"  
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Obiectul prin care se remarcă un șerif printre ceilalți locuitori al unui oraș veestic este:",
+      answers: {
+        a: "Bandana peste față",
+        b: "Revolverul gravat",
+        c: "Steaua din piept",
+        d: "Pălăria"  
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Care era numele adevărat al lui Sundance Kid?",
+      answers: {
+        a: "Billy The Kid",
+        b: "Harry Longabaugh",
+        c: "Doc Holiday",
+        d: "Robert Leroy Parker"  
+      },
+      correctAnswer: "b"
+    }  
   ];
 
   // display quiz right away
