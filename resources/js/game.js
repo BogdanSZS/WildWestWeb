@@ -103,7 +103,7 @@ var render = function () {
 	ctx.font = "18px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	ctx.fillText("Goblins caught: " + monstersCaught, 32, 32);
+	ctx.fillText("Sheriff Stars Acquired: " + monstersCaught, 32, 32);
 	
 	// co-ordinates
 	ctx.fillStyle = "rgb(250, 250, 250)";
