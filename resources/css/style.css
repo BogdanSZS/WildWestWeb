@@ -471,6 +471,13 @@ blockquote:before {
     left: -5px;
 }
 
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
 cite {
     font-size: 90%;
     margin-top: 25px;
